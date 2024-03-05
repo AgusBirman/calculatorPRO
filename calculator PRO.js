@@ -32,11 +32,6 @@ function calculator() {
         }
     }
 
-    if (numbers.length === 0) {
-        alert("No numbers entered. Exiting...");
-        return;
-    }
-
 
     alert("Numbers entered: " + numbers.join(", "));
 
